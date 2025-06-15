@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a = 44;
+    int b = 55;
+
+    cout<<a+b;
+}
