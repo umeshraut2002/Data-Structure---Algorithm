@@ -6,4 +6,6 @@ int main(){
     int b = 55;
 
     cout<<a+b;
+
+    return 0;
 }
