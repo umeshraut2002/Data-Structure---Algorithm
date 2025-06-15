@@ -5,7 +5,7 @@ int main(){
     int a = 44;
     int b = 55;
 
-    cout<<a+b;
+    cout<<a+b <<endl;
 
     return 0;
 }
