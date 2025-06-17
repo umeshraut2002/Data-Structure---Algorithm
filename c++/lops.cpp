@@ -12,9 +12,14 @@ int main(){
 
     // for loop
 
-    for(int i=0; i<=10; i++){
-        cout << i << endl;
-    }
+    // for(int i=0; i<=10; i++){
+    //     cout << i << endl;
+    // }
+
+    do{
+        cout << count << endl;
+        count++;
+    }while(count <= 10);
 
     return 0;
 }
