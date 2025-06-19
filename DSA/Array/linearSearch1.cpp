@@ -1,3 +1,5 @@
+//WAP to find a target index using linear search
+
 #include <iostream>
 using namespace std;
 
