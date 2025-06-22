@@ -2,12 +2,17 @@
 using namespace std;
 
 int main(){
-    vector<int> arr = {8, 2, 4, 5, 3, 7, 1};
+    int arr = [4, 5, 1, 2];
 
-    for(int val : arr){
-        
+    int n = arr.size();
+
+    sort(arr.begin(), arr.end());
+
+    for(int i = 0; i < n; i++){
+        if(i + 1 != arr[i]){
+            return i+1;
+        }
     }
 
-    return 0;
-
+    return n + 1;
 }
