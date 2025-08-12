@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+void merge(vector<int>& num1, int m, vector<int>& num2, int n){
+    
+}
+
+int main(){
+    vector<int>num1 = {1,2,3,0,0,0};
+    vector<int>num2 = {2,5,6};
+
+    merge(num1, num2)
+
+    return 0;
+}
