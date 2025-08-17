@@ -3,9 +3,17 @@ using namespace std;
 
 int main(){
 
-    int vector<int>num = {1,3,4};
+    vector<int>num = {1,3,4};
 
-    cout << num.back() + 1;
+    int j = num.size();
+
+    for(int i = 0; i < num.size(); i++){
+        if(i == j){
+            num[i] = num[i] + 1;
+        }
+
+        cout << num[i] << endl;
+    }
 
     return 0;
 }
