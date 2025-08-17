@@ -8,6 +8,10 @@ int main(){
         nums[i] = nums[i] * nums[i];
     }
 
+    for(int i = 0; i < nums.size(); i++){
+        cout << nums[i] << endl;
+    }
+
     // cout << sort(nums.begin(), nums.end()) << endl;
 
     return 0;
