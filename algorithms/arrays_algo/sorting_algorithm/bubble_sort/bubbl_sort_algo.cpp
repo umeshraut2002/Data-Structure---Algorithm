@@ -29,7 +29,6 @@ void bubble_sort(int nums[], int n){
         }
 
     }
-
 }
 
 void print_Array(int nums[], int n){
